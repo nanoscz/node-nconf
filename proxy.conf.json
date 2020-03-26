@@ -1,0 +1,20 @@
+{
+  "/api/courses": {
+    "target": "http://", 
+    "pathRewrite": {
+      "^/api/name": "" 
+    },
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+  "/api/students": {
+    "target": "http://", 
+    "pathRewrite": {
+      "^/api/name": "" 
+    },
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}

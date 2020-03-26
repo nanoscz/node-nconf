@@ -1,0 +1,30 @@
+{
+  "name": "node-ncof",
+  "version": "1.0.0",
+  "description": "nconf library test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "standart"
+  },
+  "keywords": [
+    "node-nconf",
+    "nconf"
+  ],
+  "author": "Fernando Castillo Torrico <fernandocto.scz@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.15.0",
+    "nconf": "^0.10.0",
+    "standart": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }, 
+  "engines" : {
+    "node" : "6.17.1",
+    "npm" : "3.10.10"
+  }
+}
