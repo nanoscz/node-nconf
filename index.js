@@ -16,6 +16,6 @@ Object.keys(proxies).forEach(key => {
   app.use(key, httpProxyMiddleware(key, proxies[key]))
 })
 
-app.listen(3005, () => {
+app.listen(settings.PORT, () => {
   console.log(`server listening on port http://localhost:${settings.PORT}`)
 })
